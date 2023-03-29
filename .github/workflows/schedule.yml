@@ -7,6 +7,7 @@ on:
 jobs:
   update-gist:
     runs-on: ubuntu-latest
+    environment: productive-box
     steps:
       - name: Update gist
         uses: maxam2017/productive-box@master
